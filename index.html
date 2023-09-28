@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>temperatute converter</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <div class="field">
@@ -18,11 +19,12 @@
             </center>
             <table>
                 <tr>
-                  <td class="box1"><input type="number"  class="infah" placeholder="FAHREINHEIT"></td>
-                  <td class="box2"><input type="number" class="incel" placeholder="CELCIUS"></td>
+                  <td class="box1"><input type="number"  id="fahrenheitInput" class="infah" placeholder="FAHREINHEIT"></td>
+                  <td class="box2"><input type="number" id="celsiusInput" class="incel" placeholder="CELCIUS"></td>
                 </tr>
                 <tr>
-                    <td class="button"><input type="submit" class="convert" value="convert"></td>
+                    <td class="button"><input type="submit" class="convert" value="convert" onclick="convertTemperature()"></td>
+                    <td class="reset"><input type="submit" class="reset1" value="reset" onclick="reset()"></td>
                 </tr>
               </table>
         </div>
