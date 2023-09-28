@@ -4,7 +4,7 @@ body{
 .field{
     height: fit-content;
     width: fit-content;
-    padding-left: 35%;
+    padding-left: 30%;
     padding-top: 15%;
     width: fit-content;
 }
@@ -38,14 +38,22 @@ img{
 }
 .box2{
     padding-top: 10px;
-    padding-left:69%;
+    padding-left:62%;
 
 }
 .button{
     padding-top: 10px;
-    padding-left: 87%;
+    padding-left: 50%;
+}
+.reset{
+    padding-top: 10px;
+    padding-left: 50%;
 }
 .convert{
+    background-color: rgb(114, 93, 93);
+    font-size: 20px;
+}
+.reset1{
     background-color: rgb(114, 93, 93);
     font-size: 20px;
 }
